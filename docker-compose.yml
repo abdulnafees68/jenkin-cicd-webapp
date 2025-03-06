@@ -4,7 +4,7 @@ services:
   web:
     image: hello-angular-app:latest
     ports:
-      - "9001:80"  # Change port here, e.g., using port 9001 instead of 9000
+      - "9000:80"  # Change port here, e.g., using port 9001 instead of 9000
     networks:
       - web-cicd
     restart: always
