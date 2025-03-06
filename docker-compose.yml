@@ -3,6 +3,13 @@ version: '3.8'
 services:
   web:
     image: hello-angular-app:latest
-    container_name: hello-angular-app-container
     ports:
-      - "9000:80"
+      - "9001:80"  # Change port here, e.g., using port 9001 instead of 9000
+    networks:
+      - web-cicd
+    restart: always
+
+networks:
+  web-cicd:
+    driver: bridge
+
