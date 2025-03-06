@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  web:
+    image: hello-angular-app:latest
+    container_name: hello-angular-app-container
+    ports:
+      - "9000:80"
