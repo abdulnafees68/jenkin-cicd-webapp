@@ -1,6 +1,4 @@
-/* app.component.css */
-
-/* Global Styles */
+/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
@@ -8,77 +6,116 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
     color: #333;
-    padding: 20px;
   }
   
   .container {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 20px;
   }
   
-  header {
-    background-color: #0077b6;
-    color: white;
-    padding: 20px;
+  /* Header styles */
+  .header {
     text-align: center;
+    background-color: #2a9d8f;
+    padding: 50px 20px;
+    color: white;
     border-radius: 8px;
   }
   
-  header h1 {
-    font-size: 2.5rem;
-  }
-  
-  header p {
-    font-size: 1.2rem;
-    margin-top: 10px;
-  }
-  
-  /* DevOps Section */
-  .devops-section,
-  .devops-tools,
-  .devops-process {
-    background-color: #ffffff;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .devops-section h2,
-  .devops-tools h2,
-  .devops-process h2 {
-    color: #0077b6;
-    font-size: 1.8rem;
+  .header h1 {
+    font-size: 2.5em;
     margin-bottom: 10px;
   }
   
-  .devops-tools ul {
+  .header .subheader {
+    font-size: 1.2em;
+    font-weight: 300;
+  }
+  
+  /* Content section */
+  .content {
+    margin-top: 40px;
+  }
+  
+  .info,
+  .features {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info h2,
+  .features h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  .features ul {
     list-style-type: none;
-    padding-left: 0;
+    padding: 0;
   }
   
-  .devops-tools li {
-    background-color: #e9f7fa;
-    padding: 8px;
-    border-radius: 4px;
-    margin-bottom: 5px;
+  .features li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
   }
   
-  .devops-tools li:hover {
-    background-color: #a1c4d1;
+  .features li strong {
+    color: #2a9d8f;
   }
   
-  footer {
+  /* Tools section */
+  .tools {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tools h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #2a9d8f;
+  }
+  
+  .tools-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .tool-card {
+    text-align: center;
+    max-width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tool-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  /* Footer styles */
+  .footer {
     text-align: center;
     margin-top: 40px;
-    font-size: 1.1rem;
-    color: #0077b6;
-  }
-  
-  footer p {
-    font-style: italic;
+    background-color: #2a9d8f;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
   }
   
