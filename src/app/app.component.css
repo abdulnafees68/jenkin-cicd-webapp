@@ -1,0 +1,84 @@
+/* app.component.css */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* DevOps Section */
+  .devops-section,
+  .devops-tools,
+  .devops-process {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .devops-section h2,
+  .devops-tools h2,
+  .devops-process h2 {
+    color: #0077b6;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .devops-tools ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .devops-tools li {
+    background-color: #e9f7fa;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  
+  .devops-tools li:hover {
+    background-color: #a1c4d1;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.1rem;
+    color: #0077b6;
+  }
+  
+  footer p {
+    font-style: italic;
+  }
+  
