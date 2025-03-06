@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    image: hello-angular-app:latest
+    image: "hello-angular-app:latest"
     ports:
       - "9000:80"  # Change port here, e.g., using port 9001 instead of 9000
     networks:
